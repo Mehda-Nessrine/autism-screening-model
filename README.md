@@ -55,7 +55,7 @@ pip install matplotlib seaborn jupyter
 jupyter notebook autism_model.ipynb
 ```
 
-Put `Child-Data2017.csv` and `Child-Data2018.csv` in the same folder as the notebook.
+Put `Child-Data2017.csv` and `Child-Data2018.csv` in data folder.
 
 ---
 
@@ -68,7 +68,7 @@ result = predict_asd_probability(
     A6_Score=1, A7_Score=0, A8_Score=1, A9_Score=0, A10_Score=1,
     age=6, gender='f', jundice='yes', Family_ASD='yes'
 )
-# {'predicted_class': 'Yes', 'probabilities': {'No (0)': 0.0, 'Yes (1)': 1.0}}
+# {'predicted_class': 'Yes', 'probabilities': {'No (0)': 0.12, 'Yes (1)': 0.88}}
 ```
 
 ---
