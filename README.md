@@ -77,8 +77,3 @@ result = predict_asd_probability(
 
 Python · pandas · NumPy · scikit-learn · Streamlit · Plotly
 
----
-
-## 👩‍💻 Author
-
-**Mehda Nesrine** — [GitHub](https://github.com/Mehda-Nessrine)
